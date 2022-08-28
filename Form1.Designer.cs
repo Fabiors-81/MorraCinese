@@ -1,6 +1,6 @@
 ﻿namespace MorraCinese
 {
-    partial class Form1
+    partial class Form_MorraCinese
     {
         /// <summary>
         /// Variabile di progettazione necessaria.
@@ -294,17 +294,17 @@
             this.btn_1Giocatore.Text = "1 Giocatore";
             this.btn_1Giocatore.UseVisualStyleBackColor = false;
             // 
-            // Form1
+            // Form_MorraCinese
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1274, 1391);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
-            this.Name = "Form1";
+            this.Name = "Form_MorraCinese";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "Morra Cinese -  Sasso Carta Forbice";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel1.ResumeLayout(false);
