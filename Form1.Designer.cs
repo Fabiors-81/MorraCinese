@@ -28,18 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pict_Giocatore1 = new System.Windows.Forms.PictureBox();
+            this.pict_Giocatore2 = new System.Windows.Forms.PictureBox();
             this.lbl_MorraCinese1 = new System.Windows.Forms.Label();
             this.lbl_SaccoCartaForbice1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.lbl_zero2 = new System.Windows.Forms.Label();
-            this.lbl_zero1 = new System.Windows.Forms.Label();
+            this.lbl_PunteggioGiocatore2 = new System.Windows.Forms.Label();
+            this.lbl_PunteggioGiocatore1 = new System.Windows.Forms.Label();
             this.btn_Precedente = new System.Windows.Forms.Button();
-            this.btn_Seleziona = new System.Windows.Forms.Button();
+            this.btn_Conferma = new System.Windows.Forms.Button();
             this.btn_Successivo = new System.Windows.Forms.Button();
-            this.label_Sconosciuto = new System.Windows.Forms.Label();
-            this.lbl_Sconosciuto = new System.Windows.Forms.Label();
+            this.lbl_SceltaGiocatore1 = new System.Windows.Forms.Label();
+            this.lbl_SceltaGiocatore2 = new System.Windows.Forms.Label();
             this.label_VS = new System.Windows.Forms.Label();
             this.panel_1Giocatore = new System.Windows.Forms.Panel();
             this.panel_Start = new System.Windows.Forms.Panel();
@@ -48,33 +48,33 @@
             this.lbl_Modalità_Gioco = new System.Windows.Forms.Label();
             this.btn_2Giocatore = new System.Windows.Forms.Button();
             this.btn_1Giocatore = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pict_Giocatore1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pict_Giocatore2)).BeginInit();
             this.panel_1Giocatore.SuspendLayout();
             this.panel_Start.SuspendLayout();
             this.SuspendLayout();
             // 
-            // pictureBox1
+            // pict_Giocatore1
             // 
-            this.pictureBox1.BackgroundImage = global::MorraCinese.Properties.Resources.sconosciuto;
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(320, 284);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(257, 251);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.pict_Giocatore1.BackgroundImage = global::MorraCinese.Properties.Resources.sconosciuto;
+            this.pict_Giocatore1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pict_Giocatore1.Location = new System.Drawing.Point(320, 284);
+            this.pict_Giocatore1.Name = "pict_Giocatore1";
+            this.pict_Giocatore1.Size = new System.Drawing.Size(257, 251);
+            this.pict_Giocatore1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pict_Giocatore1.TabIndex = 0;
+            this.pict_Giocatore1.TabStop = false;
             // 
-            // pictureBox2
+            // pict_Giocatore2
             // 
-            this.pictureBox2.BackgroundImage = global::MorraCinese.Properties.Resources.sconosciuto;
-            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox2.Location = new System.Drawing.Point(747, 271);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(257, 251);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 1;
-            this.pictureBox2.TabStop = false;
+            this.pict_Giocatore2.BackgroundImage = global::MorraCinese.Properties.Resources.sconosciuto;
+            this.pict_Giocatore2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pict_Giocatore2.Location = new System.Drawing.Point(747, 271);
+            this.pict_Giocatore2.Name = "pict_Giocatore2";
+            this.pict_Giocatore2.Size = new System.Drawing.Size(257, 251);
+            this.pict_Giocatore2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pict_Giocatore2.TabIndex = 1;
+            this.pict_Giocatore2.TabStop = false;
             // 
             // lbl_MorraCinese1
             // 
@@ -109,27 +109,27 @@
             this.label3.TabIndex = 4;
             this.label3.Text = "Punteggio:";
             // 
-            // lbl_zero2
+            // lbl_PunteggioGiocatore2
             // 
-            this.lbl_zero2.AutoSize = true;
-            this.lbl_zero2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.1F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_zero2.ForeColor = System.Drawing.Color.Black;
-            this.lbl_zero2.Location = new System.Drawing.Point(830, 205);
-            this.lbl_zero2.Name = "lbl_zero2";
-            this.lbl_zero2.Size = new System.Drawing.Size(70, 76);
-            this.lbl_zero2.TabIndex = 5;
-            this.lbl_zero2.Text = "0";
+            this.lbl_PunteggioGiocatore2.AutoSize = true;
+            this.lbl_PunteggioGiocatore2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.1F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_PunteggioGiocatore2.ForeColor = System.Drawing.Color.Black;
+            this.lbl_PunteggioGiocatore2.Location = new System.Drawing.Point(830, 205);
+            this.lbl_PunteggioGiocatore2.Name = "lbl_PunteggioGiocatore2";
+            this.lbl_PunteggioGiocatore2.Size = new System.Drawing.Size(70, 76);
+            this.lbl_PunteggioGiocatore2.TabIndex = 5;
+            this.lbl_PunteggioGiocatore2.Text = "0";
             // 
-            // lbl_zero1
+            // lbl_PunteggioGiocatore1
             // 
-            this.lbl_zero1.AutoSize = true;
-            this.lbl_zero1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.1F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_zero1.ForeColor = System.Drawing.Color.Black;
-            this.lbl_zero1.Location = new System.Drawing.Point(418, 205);
-            this.lbl_zero1.Name = "lbl_zero1";
-            this.lbl_zero1.Size = new System.Drawing.Size(70, 76);
-            this.lbl_zero1.TabIndex = 6;
-            this.lbl_zero1.Text = "0";
+            this.lbl_PunteggioGiocatore1.AutoSize = true;
+            this.lbl_PunteggioGiocatore1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.1F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_PunteggioGiocatore1.ForeColor = System.Drawing.Color.Black;
+            this.lbl_PunteggioGiocatore1.Location = new System.Drawing.Point(418, 205);
+            this.lbl_PunteggioGiocatore1.Name = "lbl_PunteggioGiocatore1";
+            this.lbl_PunteggioGiocatore1.Size = new System.Drawing.Size(70, 76);
+            this.lbl_PunteggioGiocatore1.TabIndex = 6;
+            this.lbl_PunteggioGiocatore1.Text = "0";
             // 
             // btn_Precedente
             // 
@@ -144,18 +144,18 @@
             this.btn_Precedente.Text = "Precedente";
             this.btn_Precedente.UseVisualStyleBackColor = false;
             // 
-            // btn_Seleziona
+            // btn_Conferma
             // 
-            this.btn_Seleziona.BackColor = System.Drawing.Color.DarkSeaGreen;
-            this.btn_Seleziona.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Seleziona.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.1F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Seleziona.ForeColor = System.Drawing.Color.Black;
-            this.btn_Seleziona.Location = new System.Drawing.Point(34, 467);
-            this.btn_Seleziona.Name = "btn_Seleziona";
-            this.btn_Seleziona.Size = new System.Drawing.Size(225, 68);
-            this.btn_Seleziona.TabIndex = 8;
-            this.btn_Seleziona.Text = "Seleziona";
-            this.btn_Seleziona.UseVisualStyleBackColor = false;
+            this.btn_Conferma.BackColor = System.Drawing.Color.DarkSeaGreen;
+            this.btn_Conferma.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Conferma.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.1F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Conferma.ForeColor = System.Drawing.Color.Black;
+            this.btn_Conferma.Location = new System.Drawing.Point(34, 467);
+            this.btn_Conferma.Name = "btn_Conferma";
+            this.btn_Conferma.Size = new System.Drawing.Size(225, 68);
+            this.btn_Conferma.TabIndex = 8;
+            this.btn_Conferma.Text = "Conferma";
+            this.btn_Conferma.UseVisualStyleBackColor = false;
             // 
             // btn_Successivo
             // 
@@ -169,28 +169,29 @@
             this.btn_Successivo.TabIndex = 9;
             this.btn_Successivo.Text = "Successivo";
             this.btn_Successivo.UseVisualStyleBackColor = false;
+            this.btn_Successivo.Click += new System.EventHandler(this.btn_Successivo_Click);
             // 
-            // label_Sconosciuto
+            // lbl_SceltaGiocatore1
             // 
-            this.label_Sconosciuto.AutoSize = true;
-            this.label_Sconosciuto.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.900001F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_Sconosciuto.ForeColor = System.Drawing.Color.Black;
-            this.label_Sconosciuto.Location = new System.Drawing.Point(313, 554);
-            this.label_Sconosciuto.Name = "label_Sconosciuto";
-            this.label_Sconosciuto.Size = new System.Drawing.Size(214, 39);
-            this.label_Sconosciuto.TabIndex = 11;
-            this.label_Sconosciuto.Text = "Sconosciuto";
+            this.lbl_SceltaGiocatore1.AutoSize = true;
+            this.lbl_SceltaGiocatore1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.900001F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_SceltaGiocatore1.ForeColor = System.Drawing.Color.Black;
+            this.lbl_SceltaGiocatore1.Location = new System.Drawing.Point(313, 554);
+            this.lbl_SceltaGiocatore1.Name = "lbl_SceltaGiocatore1";
+            this.lbl_SceltaGiocatore1.Size = new System.Drawing.Size(214, 39);
+            this.lbl_SceltaGiocatore1.TabIndex = 11;
+            this.lbl_SceltaGiocatore1.Text = "Sconosciuto";
             // 
-            // lbl_Sconosciuto
+            // lbl_SceltaGiocatore2
             // 
-            this.lbl_Sconosciuto.AutoSize = true;
-            this.lbl_Sconosciuto.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.900001F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_Sconosciuto.ForeColor = System.Drawing.Color.Black;
-            this.lbl_Sconosciuto.Location = new System.Drawing.Point(740, 554);
-            this.lbl_Sconosciuto.Name = "lbl_Sconosciuto";
-            this.lbl_Sconosciuto.Size = new System.Drawing.Size(214, 39);
-            this.lbl_Sconosciuto.TabIndex = 12;
-            this.lbl_Sconosciuto.Text = "Sconosciuto";
+            this.lbl_SceltaGiocatore2.AutoSize = true;
+            this.lbl_SceltaGiocatore2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.900001F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_SceltaGiocatore2.ForeColor = System.Drawing.Color.Black;
+            this.lbl_SceltaGiocatore2.Location = new System.Drawing.Point(740, 554);
+            this.lbl_SceltaGiocatore2.Name = "lbl_SceltaGiocatore2";
+            this.lbl_SceltaGiocatore2.Size = new System.Drawing.Size(214, 39);
+            this.lbl_SceltaGiocatore2.TabIndex = 12;
+            this.lbl_SceltaGiocatore2.Text = "Sconosciuto";
             // 
             // label_VS
             // 
@@ -206,17 +207,17 @@
             // panel_1Giocatore
             // 
             this.panel_1Giocatore.Controls.Add(this.lbl_MorraCinese1);
-            this.panel_1Giocatore.Controls.Add(this.pictureBox2);
-            this.panel_1Giocatore.Controls.Add(this.pictureBox1);
+            this.panel_1Giocatore.Controls.Add(this.pict_Giocatore2);
+            this.panel_1Giocatore.Controls.Add(this.pict_Giocatore1);
             this.panel_1Giocatore.Controls.Add(this.label_VS);
             this.panel_1Giocatore.Controls.Add(this.lbl_SaccoCartaForbice1);
-            this.panel_1Giocatore.Controls.Add(this.lbl_Sconosciuto);
+            this.panel_1Giocatore.Controls.Add(this.lbl_SceltaGiocatore2);
             this.panel_1Giocatore.Controls.Add(this.label3);
-            this.panel_1Giocatore.Controls.Add(this.label_Sconosciuto);
-            this.panel_1Giocatore.Controls.Add(this.lbl_zero2);
+            this.panel_1Giocatore.Controls.Add(this.lbl_SceltaGiocatore1);
+            this.panel_1Giocatore.Controls.Add(this.lbl_PunteggioGiocatore2);
             this.panel_1Giocatore.Controls.Add(this.btn_Successivo);
-            this.panel_1Giocatore.Controls.Add(this.lbl_zero1);
-            this.panel_1Giocatore.Controls.Add(this.btn_Seleziona);
+            this.panel_1Giocatore.Controls.Add(this.lbl_PunteggioGiocatore1);
+            this.panel_1Giocatore.Controls.Add(this.btn_Conferma);
             this.panel_1Giocatore.Controls.Add(this.btn_Precedente);
             this.panel_1Giocatore.Location = new System.Drawing.Point(12, 12);
             this.panel_1Giocatore.Name = "panel_1Giocatore";
@@ -299,7 +300,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1274, 1391);
+            this.ClientSize = new System.Drawing.Size(2728, 1271);
             this.Controls.Add(this.panel_Start);
             this.Controls.Add(this.panel_1Giocatore);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -309,8 +310,8 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Morra Cinese -  Sasso Carta Forbice";
             this.Load += new System.EventHandler(this.Form_MorraCinese_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pict_Giocatore1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pict_Giocatore2)).EndInit();
             this.panel_1Giocatore.ResumeLayout(false);
             this.panel_1Giocatore.PerformLayout();
             this.panel_Start.ResumeLayout(false);
@@ -320,18 +321,18 @@
         }
 
         #endregion
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pict_Giocatore1;
+        private System.Windows.Forms.PictureBox pict_Giocatore2;
         private System.Windows.Forms.Label lbl_MorraCinese1;
         private System.Windows.Forms.Label lbl_SaccoCartaForbice1;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label lbl_zero2;
-        private System.Windows.Forms.Label lbl_zero1;
+        private System.Windows.Forms.Label lbl_PunteggioGiocatore2;
+        private System.Windows.Forms.Label lbl_PunteggioGiocatore1;
         private System.Windows.Forms.Button btn_Precedente;
-        private System.Windows.Forms.Button btn_Seleziona;
+        private System.Windows.Forms.Button btn_Conferma;
         private System.Windows.Forms.Button btn_Successivo;
-        private System.Windows.Forms.Label label_Sconosciuto;
-        private System.Windows.Forms.Label lbl_Sconosciuto;
+        private System.Windows.Forms.Label lbl_SceltaGiocatore1;
+        private System.Windows.Forms.Label lbl_SceltaGiocatore2;
         private System.Windows.Forms.Label label_VS;
         private System.Windows.Forms.Panel panel_1Giocatore;
         private System.Windows.Forms.Panel panel_Start;

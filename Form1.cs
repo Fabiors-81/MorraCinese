@@ -16,7 +16,10 @@ namespace MorraCinese
         {
             InitializeComponent();
         }
-
+        private string SceltaGiocatore1 = "";
+        private string SceltaGiocatore2 = "";
+        private int PunteggioGiocatore1 = 0;
+        private int PunteggioGiocatore2 = 0;
         private void Form_MorraCinese_Load(object sender, EventArgs e)
         {
             //this.Width = 575;
@@ -31,6 +34,26 @@ namespace MorraCinese
         {
             panel_Start.Visible = false;
             panel_1Giocatore.Visible = true;
+        }
+
+        private void btn_Successivo_Click(object sender, EventArgs e)
+        {
+            switch (pict_Giocatore1.Tag)
+            {
+                case "carta":
+                    pict_Giocatore1.BackgroundImage = Properties.Resources.sasso;
+                    pict_Giocatore1.Tag = "sasso";
+                    break;
+                case "sasso":
+                    pict_Giocatore1.BackgroundImage = Properties.Resources.sasso;
+                    break;
+                case "forbice":
+                    pict_Giocatore1.BackgroundImage = Properties.Resources.sasso;
+                    break;
+                default:
+                    pict_Giocatore1.BackgroundImage = Properties.Resources.sasso;
+                    break;
+            }
         }
     }
 }
