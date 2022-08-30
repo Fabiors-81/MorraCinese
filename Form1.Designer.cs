@@ -143,6 +143,7 @@
             this.btn_Precedente.TabIndex = 7;
             this.btn_Precedente.Text = "Precedente";
             this.btn_Precedente.UseVisualStyleBackColor = false;
+            this.btn_Precedente.Click += new System.EventHandler(this.btn_Precedente_Click);
             // 
             // btn_Conferma
             // 

@@ -43,17 +43,52 @@ namespace MorraCinese
                 case "carta":
                     pict_Giocatore1.BackgroundImage = Properties.Resources.sasso;
                     pict_Giocatore1.Tag = "sasso";
+                    lbl_SceltaGiocatore1.Text= pict_Giocatore1.Tag.ToString();
                     break;
                 case "sasso":
-                    pict_Giocatore1.BackgroundImage = Properties.Resources.sasso;
+                    pict_Giocatore1.BackgroundImage = Properties.Resources.forbice;
+                    pict_Giocatore1.Tag = "forbice";
+                    lbl_SceltaGiocatore1.Text = pict_Giocatore1.Tag.ToString();
                     break;
                 case "forbice":
-                    pict_Giocatore1.BackgroundImage = Properties.Resources.sasso;
+                    pict_Giocatore1.BackgroundImage = Properties.Resources.carta;
+                    pict_Giocatore1.Tag = "carta";
+                    lbl_SceltaGiocatore1.Text = pict_Giocatore1.Tag.ToString();
                     break;
                 default:
-                    pict_Giocatore1.BackgroundImage = Properties.Resources.sasso;
+                    pict_Giocatore1.BackgroundImage = Properties.Resources.carta;
+                    pict_Giocatore1.Tag = "carta";
+                    lbl_SceltaGiocatore1.Text = pict_Giocatore1.Tag.ToString();
                     break;
             }
         }
+        #region PULSANTI SUCCESSIVO E PRECEDENTE
+        private void btn_Precedente_Click(object sender, EventArgs e)
+        {
+            switch (pict_Giocatore1.Tag)
+            {
+                case "carta":
+                    pict_Giocatore1.BackgroundImage = Properties.Resources.forbice;
+                    pict_Giocatore1.Tag = "forbice";
+                    lbl_SceltaGiocatore1.Text = pict_Giocatore1.Tag.ToString();
+                    break;
+                case "sasso":
+                    pict_Giocatore1.BackgroundImage = Properties.Resources.carta;
+                    pict_Giocatore1.Tag = "carta";
+                    lbl_SceltaGiocatore1.Text = pict_Giocatore1.Tag.ToString();
+                    break;
+                case "forbice":
+                    pict_Giocatore1.BackgroundImage = Properties.Resources.sasso;
+                    pict_Giocatore1.Tag = "sasso";
+                    lbl_SceltaGiocatore1.Text = pict_Giocatore1.Tag.ToString();
+                    break;
+                default:
+                    pict_Giocatore1.BackgroundImage = Properties.Resources.forbice;
+                    pict_Giocatore1.Tag = "carta";
+                    lbl_SceltaGiocatore1.Text = pict_Giocatore1.Tag.ToString();
+                    break;
+            }
+        }
+        #endregion
     }
 }
